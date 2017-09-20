@@ -1,0 +1,246 @@
+/*-- Reset Code --*/
+body {
+  padding:0;
+  margin:0;
+  background:#FFF;
+  font-family: 'Nunito', sans-serif;
+}
+body a {
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: none;
+}
+body a:focus, a:hover {
+  text-decoration: none;
+}
+input[type="button"],input[type="submit"] {
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+p {
+  margin:0;
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+label {
+  margin:0;
+}
+a:focus, a:hover {
+  text-decoration: none;
+  outline: none
+}
+/*-- //Reset Code --*/
+
+body {
+  background-color: rgb(230,230,230);
+  /*background-image: url('https://unsplash.it/1000/800')*/
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#banner {
+  padding: 200px 50px;
+  background-image: url(images/bg.png);
+  background-size: cover;
+}
+
+#objetivo p {
+  color: #777;
+  font-size: 1.3em;
+  line-height: 1.9em;
+  letter-spacing: 1px;
+  margin-top: 0px;
+}
+
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255, 83, 13, 1.0);
+  font-size: 25px;
+  font-family: arial;
+}
+
+#banner {
+  color: rgb(240, 240, 240);
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+a {
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.card {
+  /*width: 300px;
+  height: 300px;*/
+  padding: 100px 30px;
+  margin: 40px;
+  /*background-color: rgb(220, 220, 220)*/
+}
+
+.card img {
+  width: 100px;
+}
+
+#portifolio {
+  background-color: #EEE9E9;
+}
+
+#portifolio i {
+  padding: 0 20px;
+  font-size: 100px;
+}
+
+#footer {
+  width: 100%;
+  background-color: black;
+  padding: 50px;
+  color: white;
+}
+
+#footer i {
+  padding: 0 20px;
+  font-size: 100px;
+}
+
+/*-- About-starts-here --*/
+#about,.services,#portfolio, .wthreeskills, .aitsresumewthree{
+    padding: 2em 0;
+}
+.w3ls-agile-left-info {
+    padding: 0em 0;
+}
+.w3ls-agile-left-info h4, .social-info h4 {
+    font-size: 1.8em;
+    margin: 0;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.w3ls-agile-left-info p {
+    color: #777;
+    font-size: 1em;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    margin-top: 0px;
+}
+.agile-about-right-img img {
+    width: 100%;
+}
+h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskills h3, .aitsresumewthree-tag h3, .wthreeskills h3{
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.w3l-grids-about , .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs, .load_more.load_more{
+    margin-top: 3em;
+}
+
+/*-- effect --*/
+.hovicon {
+    display: inline-block;
+    font-size: 2.2em;
+    line-height: 71px;
+    cursor: pointer;
+    margin: 27px 28px;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: #fff;
+}
+.hovicon:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content:'';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.hovicon:before {
+    speak: none;
+    font-size: 48px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+/* Effect 2 */
+ .hovicon.effect-2 {
+    color: #fff;
+  box-shadow:0 0 0 3px #07cb79;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.hovicon.effect-2:after {
+    top: -2px;
+    left: -2px;
+    padding: 2px;
+    z-index: -1;
+    background:#07cb79;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+}
+/* Effect 2a */
+ .hovicon.effect-2.sub-a:hover, .hovicon.effect-2.sub-a:hover i {
+    color:#eee;
+}
+.hovicon.effect-2.sub-a:hover:after {
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+
+#about i {
+  padding: 0 20px;
+  font-size: 50px;
+  padding: 40px;
+}
+/*-- //effect --*/
+
+.icon-w3l {
+    float: left;
+    width: 20%;
+}
+.text-w3l {
+    float: right;
+    width: 76%;
+    padding: 1.5em 0em;
+}
+
+.text-left {
+    float: left;
+    width: 76%;
+    padding: 1.5em 0em;
+}
+/*-- //About-ends-here --*/
